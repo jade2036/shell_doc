@@ -6,7 +6,7 @@ export CLICOLOR=1
 if [ -f /etc/bashrc ]; then
     . /etc/bashrc
 fi
-#
+
 if [ -f ~/.gitbash/git-completion.bash ];then
     source ~/.gitbash/git-completion.bash
 fi
